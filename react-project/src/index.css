@@ -35,3 +35,46 @@ body {
   border: none;
   box-shadow: -2px 2px 5px rgba(0,0,0, 0.2);
 }
+
+.login{
+  text-align: center;
+  margin: 60px auto;
+}
+
+form, .links{
+  max-width: 300px;
+  margin: auto;
+}
+
+
+form > *{
+  display: block;
+  margin: 15px 0px;
+}
+
+form > input, form > button{
+  width: 300px;
+  padding: 7px 4px;
+  border-radius: 4px;
+}
+
+form > input{
+  border: 1px solid gray;
+  color: gray;
+}
+
+form div{
+  text-align: left;
+}
+
+form button{
+  background-color: #3f51b5;
+  border: none;
+  color: white;
+}
+
+.links{
+  
+}
+
+ 
