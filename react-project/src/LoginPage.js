@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom/cjs/react-router-dom.min"
+
 const LoginPage = () => {
   return (
     <div className='login'>
@@ -18,16 +20,16 @@ const LoginPage = () => {
       <p>Log In</p>
       <form>
         <input type='email' placeholder='Email Address *' required />
-        <input type='text' placeholder='Password *' required />
+        <input type='password' placeholder='Password *' required />
         <div>
           <input type='checkbox' id='remember' />
           <label htmlFor='remember'>Remember me</label>
         </div>
         <button>SIGN IN</button>
       </form>
-      <div className="links">
+      <div className='links'>
         <a href='http://localhost:3000/'>Forgot Password?</a>
-        <a href='http://localhost:3000/'>Don't have an account? Sign Up</a>
+        <Link to="./signup">Don't have an account? Sign Up</Link>
       </div>
     </div>
   )
