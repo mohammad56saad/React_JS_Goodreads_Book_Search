@@ -1,12 +1,48 @@
 import { useState } from 'react'
+import { useHistory } from 'react-router-dom/cjs/react-router-dom.min'
 
 const SignUp = () => {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [cPassword, setCPassword] = useState('')
+  const [success, setSuccess] = useState(false)
+  const history = useHistory();
+  let storedAccounts;
 
-  const handleSubmit = e => {
+  
+
+    const handleSubmit = async e => {
     e.preventDefault()
+    const emailRegex = /\./;
+
+    if (emailRegex.test(email)) {
+      if (password === cPassword) {
+        await fetch('http://localhost:8000/accounts')
+        .then((res) => res.json())
+        .then((data) => {
+          console.log(data)
+          storedAccounts = data;
+          console.log(storedAccounts)
+        });
+
+        const account = { email, password }
+        fetch('http://localhost:8000/accounts', {
+          method: 'POST',
+          headers: { "Content-Type": 'application/json' },
+          body: JSON.stringify(account)
+        }).then(() => {
+          setSuccess(true)
+
+          setTimeout(() => {
+            history.push('/')
+          }, 1000)
+        });
+      } else{
+        alert('The Password & Confirm-Password are not the same!')
+      }
+    } else {
+      alert("The Email is missing the \".\" character!")
+    }
   }
 
   return (
@@ -31,18 +67,25 @@ const SignUp = () => {
           />
         </svg>
       </i>
-      <p>Sign Up</p>
+      {!success && <p>Sign Up</p>}
+      {success && <p>You have signed up successfully!</p>}
       <form onSubmit={handleSubmit}>
-        <input type='email' placeholder='xyz@gmail.com' id='name' onChange={ (e) => {setEmail(e.target.value)}} required />
-        <input type='password' placeholder='Password' id='password' required />
+        <input type='email' placeholder='xyz@gmail.com' id='name' onChange={(e) => { setEmail(e.target.value) }} required />
+        <input type='password' placeholder='Password' id='password' onChange={(e) => { setPassword(e.target.value) }} minLength="8" required />
         <input
           type='password'
           placeholder='Confirm Password'
           id='confirm-password'
+          onChange={(e) => { setCPassword(e.target.value) }}
+          minLength="8"
           required
+
         />
-        <button>SignUp</button>
+
+        {!success && <button>SignUp</button>}
+        {success && <button disabled style={{ "cursor": 'not-allowed' }}>Signing Up ...</button>}
       </form>
+
     </div>
   )
 }
