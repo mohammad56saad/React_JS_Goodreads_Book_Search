@@ -1,6 +1,48 @@
-import { Link } from "react-router-dom/cjs/react-router-dom.min"
+import { useState } from "react"
+import { Link, useHistory } from "react-router-dom/cjs/react-router-dom.min"
 
 const LoginPage = () => {
+  const [email, setEmail] = useState("")
+  const [password, setPassword] = useState("")
+  const [success, setSuccess] = useState(false)
+  const history = useHistory()
+
+  let storedAccounts
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const emailRegex = /\./;
+
+    if (emailRegex.test(email)) {
+
+      await fetch('http://localhost:8000/accounts')
+        .then((res) => res.json())
+        .then((data) => {
+          storedAccounts = data;
+        });
+
+      const accountFound = storedAccounts.find((account) => account.email === email)
+
+      if (accountFound) {
+        if(accountFound.password === password){
+          setSuccess(true)
+          setTimeout(() => {
+            history.push('/home')
+          }, 1000)
+        } else{
+          alert("Password is Incorrect!")
+        } 
+
+      } else {
+        alert("This E-mail is not previously registered!")
+        return
+      }
+
+    } else {
+      alert("The Email is missing the \".\" character!")
+    }
+  }
+
   return (
     <div className='login'>
       <i class='bi bi-file-lock-fill'>
@@ -18,14 +60,16 @@ const LoginPage = () => {
         </svg>
       </i>
       <p>Log In</p>
-      <form>
-        <input type='email' placeholder='Email Address *' required />
-        <input type='password' placeholder='Password *' required />
+      <form onSubmit={handleSubmit}>
+        <input type='email' placeholder='Email Address *' onChange={(e) => { setEmail(e.target.value) }} required />
+        <input type='password' placeholder='Password *' minLength="8" onChange={(e) => { setPassword(e.target.value) }} required />
         <div>
           <input type='checkbox' id='remember' />
           <label htmlFor='remember'>Remember me</label>
         </div>
-        <button>SIGN IN</button>
+        {!success && <button>LOG IN</button>}
+        {success && <button disabled>LOGGING IN ...</button>}
+
       </form>
       <div className='links'>
         <a href='http://localhost:3000/'>Forgot Password?</a>

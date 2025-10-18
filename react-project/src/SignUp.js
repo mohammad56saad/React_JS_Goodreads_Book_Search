@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useHistory } from 'react-router-dom/cjs/react-router-dom.min'
+import { Link } from 'react-router-dom/cjs/react-router-dom.min'
 
 const SignUp = () => {
   const [email, setEmail] = useState('')
@@ -9,21 +10,26 @@ const SignUp = () => {
   const history = useHistory();
   let storedAccounts;
 
-  
 
-    const handleSubmit = async e => {
+
+  const handleSubmit = async e => {
     e.preventDefault()
     const emailRegex = /\./;
 
     if (emailRegex.test(email)) {
       if (password === cPassword) {
         await fetch('http://localhost:8000/accounts')
-        .then((res) => res.json())
-        .then((data) => {
-          console.log(data)
-          storedAccounts = data;
-          console.log(storedAccounts)
-        });
+          .then((res) => res.json())
+          .then((data) => {
+            storedAccounts = data;
+          });
+
+        const accountFound = storedAccounts.find((account) => account.email === email)
+
+        if (accountFound) {
+          alert("Account already registered! Try a difference account.")
+          return
+        }
 
         const account = { email, password }
         fetch('http://localhost:8000/accounts', {
@@ -37,7 +43,7 @@ const SignUp = () => {
             history.push('/')
           }, 1000)
         });
-      } else{
+      } else {
         alert('The Password & Confirm-Password are not the same!')
       }
     } else {
@@ -85,7 +91,7 @@ const SignUp = () => {
         {!success && <button>SignUp</button>}
         {success && <button disabled style={{ "cursor": 'not-allowed' }}>Signing Up ...</button>}
       </form>
-
+      <Link to="./">Back to Login Page</Link>
     </div>
   )
 }
