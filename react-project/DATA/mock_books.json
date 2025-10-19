@@ -1,0 +1,1004 @@
+{
+  "books": [
+  {
+    "id": 1,
+    "title": "The Frozen Realm",
+    "author": "Grace Reed",
+    "genre": "Mystery",
+    "year": 2016,
+    "rating": 3.6,
+    "description": "A mystery story titled 'The Frozen Realm', written by Grace Reed, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "The Cursed City",
+    "author": "Ethan Knight",
+    "genre": "Fantasy",
+    "year": 2012,
+    "rating": 3.6,
+    "description": "A fantasy story titled 'The Cursed City', written by Ethan Knight, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "The Crystal Fortress",
+    "author": "Ethan Miles",
+    "genre": "Adventure",
+    "year": 2021,
+    "rating": 3.9,
+    "description": "A adventure story titled 'The Crystal Fortress', written by Ethan Miles, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "The Dark Horizon",
+    "author": "Maya Blake",
+    "genre": "Historical Fiction",
+    "year": 2012,
+    "rating": 3.9,
+    "description": "A historical fiction story titled 'The Dark Horizon', written by Maya Blake, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "The Ivory Throne",
+    "author": "Lucas Cole",
+    "genre": "Fantasy",
+    "year": 2018,
+    "rating": 3.8,
+    "description": "A fantasy story titled 'The Ivory Throne', written by Lucas Cole, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Wings of Fire",
+    "author": "Benjamin Miles",
+    "genre": "Romance",
+    "year": 2013,
+    "rating": 4.8,
+    "description": "A romance story titled 'Wings of Fire', written by Benjamin Miles, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-6.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Kingdom of Mist",
+    "author": "Liam Monroe",
+    "genre": "Romance",
+    "year": 2013,
+    "rating": 4.3,
+    "description": "A romance story titled 'Kingdom of Mist', written by Liam Monroe, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-7.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Dreams of Tomorrow",
+    "author": "Marcus Knight",
+    "genre": "Fantasy",
+    "year": 2017,
+    "rating": 4.6,
+    "description": "A fantasy story titled 'Dreams of Tomorrow', written by Marcus Knight, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-8.jpg"
+  },
+  {
+    "id": 9,
+    "title": "The Dragon\u2019s Oath",
+    "author": "Noah Hart",
+    "genre": "Mystery",
+    "year": 2012,
+    "rating": 3.6,
+    "description": "A mystery story titled 'The Dragon\u2019s Oath', written by Noah Hart, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-9.jpg"
+  },
+  {
+    "id": 10,
+    "title": "The Ocean\u2019s Whisper",
+    "author": "Noah Monroe",
+    "genre": "Young Adult",
+    "year": 2022,
+    "rating": 4.7,
+    "description": "A young adult story titled 'The Ocean\u2019s Whisper', written by Noah Monroe, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-10.jpg"
+  },
+  {
+    "id": 11,
+    "title": "The Wandering King",
+    "author": "Clara Miles",
+    "genre": "Drama",
+    "year": 2020,
+    "rating": 4.1,
+    "description": "A drama story titled 'The Wandering King', written by Clara Miles, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-11.jpg"
+  },
+  {
+    "id": 12,
+    "title": "The Glass Kingdom",
+    "author": "Henry Cross",
+    "genre": "Thriller",
+    "year": 2011,
+    "rating": 4.4,
+    "description": "A thriller story titled 'The Glass Kingdom', written by Henry Cross, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-12.jpg"
+  },
+  {
+    "id": 13,
+    "title": "The Lost Empire",
+    "author": "Elena Jensen",
+    "genre": "Young Adult",
+    "year": 2013,
+    "rating": 4.4,
+    "description": "A young adult story titled 'The Lost Empire', written by Elena Jensen, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-13.jpg"
+  },
+  {
+    "id": 14,
+    "title": "The Silver Curse",
+    "author": "Noah Cross",
+    "genre": "Historical Fiction",
+    "year": 2019,
+    "rating": 3.6,
+    "description": "A historical fiction story titled 'The Silver Curse', written by Noah Cross, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-14.jpg"
+  },
+  {
+    "id": 15,
+    "title": "The Lost Heir",
+    "author": "Jake Frost",
+    "genre": "Young Adult",
+    "year": 2022,
+    "rating": 4.9,
+    "description": "A young adult story titled 'The Lost Heir', written by Jake Frost, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-15.jpg"
+  },
+  {
+    "id": 16,
+    "title": "Whisperwind",
+    "author": "Ethan Blake",
+    "genre": "Historical Fiction",
+    "year": 2015,
+    "rating": 4.9,
+    "description": "A historical fiction story titled 'Whisperwind', written by Ethan Blake, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-16.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Crimson Skies",
+    "author": "Clara Monroe",
+    "genre": "Adventure",
+    "year": 2017,
+    "rating": 3.9,
+    "description": "A adventure story titled 'Crimson Skies', written by Clara Monroe, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-17.jpg"
+  },
+  {
+    "id": 18,
+    "title": "Echoes of the Deep",
+    "author": "Clara Cross",
+    "genre": "Drama",
+    "year": 2024,
+    "rating": 4.3,
+    "description": "A drama story titled 'Echoes of the Deep', written by Clara Cross, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-18.jpg"
+  },
+  {
+    "id": 19,
+    "title": "The Vanished City",
+    "author": "Maya Reed",
+    "genre": "Mystery",
+    "year": 2011,
+    "rating": 3.5,
+    "description": "A mystery story titled 'The Vanished City', written by Maya Reed, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-19.jpg"
+  },
+  {
+    "id": 20,
+    "title": "The Final Empire",
+    "author": "Marcus Stone",
+    "genre": "Adventure",
+    "year": 2022,
+    "rating": 3.7,
+    "description": "A adventure story titled 'The Final Empire', written by Marcus Stone, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-20.jpg"
+  },
+  {
+    "id": 21,
+    "title": "Chronicles of the Forgotten",
+    "author": "Olivia Bennett",
+    "genre": "Adventure",
+    "year": 2018,
+    "rating": 4.7,
+    "description": "A adventure story titled 'Chronicles of the Forgotten', written by Olivia Bennett, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-21.jpg"
+  },
+  {
+    "id": 22,
+    "title": "The Silent Forest",
+    "author": "Elena Carter",
+    "genre": "Young Adult",
+    "year": 2023,
+    "rating": 4.9,
+    "description": "A young adult story titled 'The Silent Forest', written by Elena Carter, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-22.jpg"
+  },
+  {
+    "id": 23,
+    "title": "City of Ashes",
+    "author": "Clara Hale",
+    "genre": "Romance",
+    "year": 2016,
+    "rating": 4.4,
+    "description": "A romance story titled 'City of Ashes', written by Clara Hale, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-23.jpg"
+  },
+  {
+    "id": 24,
+    "title": "The Winter Veil",
+    "author": "Elena Bennett",
+    "genre": "Drama",
+    "year": 2022,
+    "rating": 4.8,
+    "description": "A drama story titled 'The Winter Veil', written by Elena Bennett, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-24.jpg"
+  },
+  {
+    "id": 25,
+    "title": "The Eternal Flame",
+    "author": "Olivia Cross",
+    "genre": "Science Fiction",
+    "year": 2011,
+    "rating": 5.0,
+    "description": "A science fiction story titled 'The Eternal Flame', written by Olivia Cross, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-25.jpg"
+  },
+  {
+    "id": 26,
+    "title": "The Broken Sword",
+    "author": "Elena Monroe",
+    "genre": "Science Fiction",
+    "year": 2021,
+    "rating": 3.6,
+    "description": "A science fiction story titled 'The Broken Sword', written by Elena Monroe, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-26.jpg"
+  },
+  {
+    "id": 27,
+    "title": "The Wandering King",
+    "author": "Lucas Blake",
+    "genre": "Fantasy",
+    "year": 2014,
+    "rating": 4.2,
+    "description": "A fantasy story titled 'The Wandering King', written by Lucas Blake, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-27.jpg"
+  },
+  {
+    "id": 28,
+    "title": "Garden of the Gods",
+    "author": "Ivy Blake",
+    "genre": "Thriller",
+    "year": 2023,
+    "rating": 4.4,
+    "description": "A thriller story titled 'Garden of the Gods', written by Ivy Blake, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-28.jpg"
+  },
+  {
+    "id": 29,
+    "title": "The Crimson Dawn",
+    "author": "Henry Hale",
+    "genre": "Drama",
+    "year": 2018,
+    "rating": 3.8,
+    "description": "A drama story titled 'The Crimson Dawn', written by Henry Hale, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-29.jpg"
+  },
+  {
+    "id": 30,
+    "title": "Echo Valley",
+    "author": "Ethan Knight",
+    "genre": "Historical Fiction",
+    "year": 2023,
+    "rating": 4.3,
+    "description": "A historical fiction story titled 'Echo Valley', written by Ethan Knight, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-30.jpg"
+  },
+  {
+    "id": 31,
+    "title": "The Final Empire",
+    "author": "Daniel Frost",
+    "genre": "Young Adult",
+    "year": 2012,
+    "rating": 4.5,
+    "description": "A young adult story titled 'The Final Empire', written by Daniel Frost, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-31.jpg"
+  },
+  {
+    "id": 32,
+    "title": "The Silent Star",
+    "author": "Olivia Summers",
+    "genre": "Adventure",
+    "year": 2024,
+    "rating": 4.4,
+    "description": "A adventure story titled 'The Silent Star', written by Olivia Summers, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-32.jpg"
+  },
+  {
+    "id": 33,
+    "title": "The Darkened Heart",
+    "author": "Henry Sinclair",
+    "genre": "Thriller",
+    "year": 2016,
+    "rating": 4.3,
+    "description": "A thriller story titled 'The Darkened Heart', written by Henry Sinclair, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-33.jpg"
+  },
+  {
+    "id": 34,
+    "title": "The Sunstone Prophecy",
+    "author": "Ivy Summers",
+    "genre": "Romance",
+    "year": 2016,
+    "rating": 4.1,
+    "description": "A romance story titled 'The Sunstone Prophecy', written by Ivy Summers, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-34.jpg"
+  },
+  {
+    "id": 35,
+    "title": "The Black Tide",
+    "author": "Clara Carter",
+    "genre": "Mystery",
+    "year": 2024,
+    "rating": 4.9,
+    "description": "A mystery story titled 'The Black Tide', written by Clara Carter, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-35.jpg"
+  },
+  {
+    "id": 36,
+    "title": "Echoes of Eternity",
+    "author": "Benjamin Cole",
+    "genre": "Fantasy",
+    "year": 2019,
+    "rating": 3.9,
+    "description": "A fantasy story titled 'Echoes of Eternity', written by Benjamin Cole, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-36.jpg"
+  },
+  {
+    "id": 37,
+    "title": "The Sunstone Prophecy",
+    "author": "Henry Cross",
+    "genre": "Young Adult",
+    "year": 2020,
+    "rating": 4.3,
+    "description": "A young adult story titled 'The Sunstone Prophecy', written by Henry Cross, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-37.jpg"
+  },
+  {
+    "id": 38,
+    "title": "The Crystal Labyrinth",
+    "author": "Elena Summers",
+    "genre": "Mystery",
+    "year": 2011,
+    "rating": 4.7,
+    "description": "A mystery story titled 'The Crystal Labyrinth', written by Elena Summers, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-38.jpg"
+  },
+  {
+    "id": 39,
+    "title": "The Winter Empire",
+    "author": "Grace Stone",
+    "genre": "Historical Fiction",
+    "year": 2011,
+    "rating": 4.0,
+    "description": "A historical fiction story titled 'The Winter Empire', written by Grace Stone, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-39.jpg"
+  },
+  {
+    "id": 40,
+    "title": "The Frozen Realm",
+    "author": "Lucas Morrison",
+    "genre": "Drama",
+    "year": 2019,
+    "rating": 4.1,
+    "description": "A drama story titled 'The Frozen Realm', written by Lucas Morrison, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-40.jpg"
+  },
+  {
+    "id": 41,
+    "title": "The Midnight Pact",
+    "author": "Daniel Knight",
+    "genre": "Mystery",
+    "year": 2010,
+    "rating": 5.0,
+    "description": "A mystery story titled 'The Midnight Pact', written by Daniel Knight, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-41.jpg"
+  },
+  {
+    "id": 42,
+    "title": "Wings of Fire",
+    "author": "Clara Grey",
+    "genre": "Historical Fiction",
+    "year": 2014,
+    "rating": 3.6,
+    "description": "A historical fiction story titled 'Wings of Fire', written by Clara Grey, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-42.jpg"
+  },
+  {
+    "id": 43,
+    "title": "The Last Journal",
+    "author": "Liam Cross",
+    "genre": "Drama",
+    "year": 2012,
+    "rating": 4.5,
+    "description": "A drama story titled 'The Last Journal', written by Liam Cross, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-43.jpg"
+  },
+  {
+    "id": 44,
+    "title": "The Amber Crown",
+    "author": "Elena Brooks",
+    "genre": "Science Fiction",
+    "year": 2021,
+    "rating": 4.7,
+    "description": "A science fiction story titled 'The Amber Crown', written by Elena Brooks, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-44.jpg"
+  },
+  {
+    "id": 45,
+    "title": "Winds of Change",
+    "author": "Elena Cross",
+    "genre": "Mystery",
+    "year": 2014,
+    "rating": 4.5,
+    "description": "A mystery story titled 'Winds of Change', written by Elena Cross, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-45.jpg"
+  },
+  {
+    "id": 46,
+    "title": "The Forgotten Kingdom",
+    "author": "Elena Frost",
+    "genre": "Mystery",
+    "year": 2021,
+    "rating": 3.7,
+    "description": "A mystery story titled 'The Forgotten Kingdom', written by Elena Frost, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-46.jpg"
+  },
+  {
+    "id": 47,
+    "title": "The Shadowed Path",
+    "author": "Elena Sinclair",
+    "genre": "Thriller",
+    "year": 2020,
+    "rating": 3.7,
+    "description": "A thriller story titled 'The Shadowed Path', written by Elena Sinclair, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-47.jpg"
+  },
+  {
+    "id": 48,
+    "title": "The Emerald Flame",
+    "author": "Owen Miles",
+    "genre": "Thriller",
+    "year": 2019,
+    "rating": 4.9,
+    "description": "A thriller story titled 'The Emerald Flame', written by Owen Miles, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-48.jpg"
+  },
+  {
+    "id": 49,
+    "title": "Fragments of Dawn",
+    "author": "Ethan Blake",
+    "genre": "Drama",
+    "year": 2012,
+    "rating": 4.6,
+    "description": "A drama story titled 'Fragments of Dawn', written by Ethan Blake, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-49.jpg"
+  },
+  {
+    "id": 50,
+    "title": "Whisperwind",
+    "author": "Clara Sinclair",
+    "genre": "Mystery",
+    "year": 2023,
+    "rating": 4.5,
+    "description": "A mystery story titled 'Whisperwind', written by Clara Sinclair, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-50.jpg"
+  },
+  {
+    "id": 51,
+    "title": "The Hollow Mirror",
+    "author": "Henry Cross",
+    "genre": "Thriller",
+    "year": 2015,
+    "rating": 3.5,
+    "description": "A thriller story titled 'The Hollow Mirror', written by Henry Cross, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-51.jpg"
+  },
+  {
+    "id": 52,
+    "title": "Echo Valley",
+    "author": "Benjamin Bennett",
+    "genre": "Drama",
+    "year": 2013,
+    "rating": 4.9,
+    "description": "A drama story titled 'Echo Valley', written by Benjamin Bennett, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-52.jpg"
+  },
+  {
+    "id": 53,
+    "title": "Edge of Infinity",
+    "author": "Clara Frost",
+    "genre": "Science Fiction",
+    "year": 2020,
+    "rating": 4.8,
+    "description": "A science fiction story titled 'Edge of Infinity', written by Clara Frost, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-53.jpg"
+  },
+  {
+    "id": 54,
+    "title": "Veil of Secrets",
+    "author": "Ivy Cross",
+    "genre": "Science Fiction",
+    "year": 2022,
+    "rating": 4.6,
+    "description": "A science fiction story titled 'Veil of Secrets', written by Ivy Cross, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-54.jpg"
+  },
+  {
+    "id": 55,
+    "title": "The Endless Sea",
+    "author": "Grace Reed",
+    "genre": "Science Fiction",
+    "year": 2018,
+    "rating": 4.3,
+    "description": "A science fiction story titled 'The Endless Sea', written by Grace Reed, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-55.jpg"
+  },
+  {
+    "id": 56,
+    "title": "The Crimson Prophecy",
+    "author": "Clara Hart",
+    "genre": "Fantasy",
+    "year": 2019,
+    "rating": 3.7,
+    "description": "A fantasy story titled 'The Crimson Prophecy', written by Clara Hart, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-56.jpg"
+  },
+  {
+    "id": 57,
+    "title": "The Moonstone Heir",
+    "author": "Ethan Grey",
+    "genre": "Young Adult",
+    "year": 2018,
+    "rating": 3.5,
+    "description": "A young adult story titled 'The Moonstone Heir', written by Ethan Grey, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-57.jpg"
+  },
+  {
+    "id": 58,
+    "title": "The Dragon\u2019s Tear",
+    "author": "Marcus Miles",
+    "genre": "Romance",
+    "year": 2022,
+    "rating": 4.7,
+    "description": "A romance story titled 'The Dragon\u2019s Tear', written by Marcus Miles, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-58.jpg"
+  },
+  {
+    "id": 59,
+    "title": "Moonlight Serenade",
+    "author": "Marcus Monroe",
+    "genre": "Fantasy",
+    "year": 2024,
+    "rating": 3.7,
+    "description": "A fantasy story titled 'Moonlight Serenade', written by Marcus Monroe, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-59.jpg"
+  },
+  {
+    "id": 60,
+    "title": "The Vanished City",
+    "author": "Clara Reed",
+    "genre": "Young Adult",
+    "year": 2022,
+    "rating": 3.7,
+    "description": "A young adult story titled 'The Vanished City', written by Clara Reed, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-60.jpg"
+  },
+  {
+    "id": 61,
+    "title": "The Silver Serpent",
+    "author": "Clara Knight",
+    "genre": "Fantasy",
+    "year": 2017,
+    "rating": 4.7,
+    "description": "A fantasy story titled 'The Silver Serpent', written by Clara Knight, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-61.jpg"
+  },
+  {
+    "id": 62,
+    "title": "Rise of the Wanderer",
+    "author": "Ivy Cole",
+    "genre": "Thriller",
+    "year": 2017,
+    "rating": 3.9,
+    "description": "A thriller story titled 'Rise of the Wanderer', written by Ivy Cole, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-62.jpg"
+  },
+  {
+    "id": 63,
+    "title": "The Crystal Labyrinth",
+    "author": "Daniel Jensen",
+    "genre": "Science Fiction",
+    "year": 2017,
+    "rating": 4.9,
+    "description": "A science fiction story titled 'The Crystal Labyrinth', written by Daniel Jensen, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-63.jpg"
+  },
+  {
+    "id": 64,
+    "title": "The Hollow Mirror",
+    "author": "Benjamin Reed",
+    "genre": "Fantasy",
+    "year": 2021,
+    "rating": 4.6,
+    "description": "A fantasy story titled 'The Hollow Mirror', written by Benjamin Reed, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-64.jpg"
+  },
+  {
+    "id": 65,
+    "title": "The Ivory Throne",
+    "author": "Liam Miles",
+    "genre": "Thriller",
+    "year": 2016,
+    "rating": 3.7,
+    "description": "A thriller story titled 'The Ivory Throne', written by Liam Miles, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-65.jpg"
+  },
+  {
+    "id": 66,
+    "title": "Falling Stardust",
+    "author": "Noah Reed",
+    "genre": "Thriller",
+    "year": 2021,
+    "rating": 4.9,
+    "description": "A thriller story titled 'Falling Stardust', written by Noah Reed, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-66.jpg"
+  },
+  {
+    "id": 67,
+    "title": "The Winter Empire",
+    "author": "Henry Sinclair",
+    "genre": "Young Adult",
+    "year": 2023,
+    "rating": 4.2,
+    "description": "A young adult story titled 'The Winter Empire', written by Henry Sinclair, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-67.jpg"
+  },
+  {
+    "id": 68,
+    "title": "The Frozen Realm",
+    "author": "Clara Hart",
+    "genre": "Young Adult",
+    "year": 2015,
+    "rating": 3.5,
+    "description": "A young adult story titled 'The Frozen Realm', written by Clara Hart, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-68.jpg"
+  },
+  {
+    "id": 69,
+    "title": "Shadows of the Empire",
+    "author": "Maya Carter",
+    "genre": "Romance",
+    "year": 2018,
+    "rating": 4.1,
+    "description": "A romance story titled 'Shadows of the Empire', written by Maya Carter, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-69.jpg"
+  },
+  {
+    "id": 70,
+    "title": "The Hidden Garden",
+    "author": "Grace Knight",
+    "genre": "Fantasy",
+    "year": 2022,
+    "rating": 3.9,
+    "description": "A fantasy story titled 'The Hidden Garden', written by Grace Knight, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-70.jpg"
+  },
+  {
+    "id": 71,
+    "title": "Wings of Fire",
+    "author": "Maya Cole",
+    "genre": "Science Fiction",
+    "year": 2015,
+    "rating": 3.7,
+    "description": "A science fiction story titled 'Wings of Fire', written by Maya Cole, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-71.jpg"
+  },
+  {
+    "id": 72,
+    "title": "The Hollow Mirror",
+    "author": "Clara Summers",
+    "genre": "Science Fiction",
+    "year": 2018,
+    "rating": 4.1,
+    "description": "A science fiction story titled 'The Hollow Mirror', written by Clara Summers, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-72.jpg"
+  },
+  {
+    "id": 73,
+    "title": "Legacy of Fire",
+    "author": "Benjamin Stone",
+    "genre": "Fantasy",
+    "year": 2019,
+    "rating": 3.6,
+    "description": "A fantasy story titled 'Legacy of Fire', written by Benjamin Stone, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-73.jpg"
+  },
+  {
+    "id": 74,
+    "title": "The Crimson Dawn",
+    "author": "Clara Carter",
+    "genre": "Young Adult",
+    "year": 2019,
+    "rating": 4.4,
+    "description": "A young adult story titled 'The Crimson Dawn', written by Clara Carter, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-74.jpg"
+  },
+  {
+    "id": 75,
+    "title": "Fields of Gold",
+    "author": "Daniel Cross",
+    "genre": "Mystery",
+    "year": 2022,
+    "rating": 3.8,
+    "description": "A mystery story titled 'Fields of Gold', written by Daniel Cross, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-75.jpg"
+  },
+  {
+    "id": 76,
+    "title": "Under the Northern Lights",
+    "author": "Elena Blake",
+    "genre": "Fantasy",
+    "year": 2024,
+    "rating": 3.5,
+    "description": "A fantasy story titled 'Under the Northern Lights', written by Elena Blake, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-76.jpg"
+  },
+  {
+    "id": 77,
+    "title": "Garden of the Gods",
+    "author": "Henry Frost",
+    "genre": "Science Fiction",
+    "year": 2019,
+    "rating": 4.7,
+    "description": "A science fiction story titled 'Garden of the Gods', written by Henry Frost, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-77.jpg"
+  },
+  {
+    "id": 78,
+    "title": "The Hidden Garden",
+    "author": "Olivia Bennett",
+    "genre": "Young Adult",
+    "year": 2023,
+    "rating": 3.8,
+    "description": "A young adult story titled 'The Hidden Garden', written by Olivia Bennett, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-78.jpg"
+  },
+  {
+    "id": 79,
+    "title": "The Hollow Mirror",
+    "author": "Ethan Stone",
+    "genre": "Drama",
+    "year": 2011,
+    "rating": 4.0,
+    "description": "A drama story titled 'The Hollow Mirror', written by Ethan Stone, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-79.jpg"
+  },
+  {
+    "id": 80,
+    "title": "Crimson Skies",
+    "author": "Ava Knight",
+    "genre": "Historical Fiction",
+    "year": 2017,
+    "rating": 4.8,
+    "description": "A historical fiction story titled 'Crimson Skies', written by Ava Knight, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-80.jpg"
+  },
+  {
+    "id": 81,
+    "title": "The Storm Chronicles",
+    "author": "Sophie Cross",
+    "genre": "Thriller",
+    "year": 2023,
+    "rating": 4.0,
+    "description": "A thriller story titled 'The Storm Chronicles', written by Sophie Cross, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-81.jpg"
+  },
+  {
+    "id": 82,
+    "title": "The Iron Code",
+    "author": "Daniel Brooks",
+    "genre": "Young Adult",
+    "year": 2021,
+    "rating": 5.0,
+    "description": "A young adult story titled 'The Iron Code', written by Daniel Brooks, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-82.jpg"
+  },
+  {
+    "id": 83,
+    "title": "Falling Stardust",
+    "author": "Maya Jensen",
+    "genre": "Romance",
+    "year": 2019,
+    "rating": 4.0,
+    "description": "A romance story titled 'Falling Stardust', written by Maya Jensen, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-83.jpg"
+  },
+  {
+    "id": 84,
+    "title": "The Silent Forest",
+    "author": "Marcus Sinclair",
+    "genre": "Mystery",
+    "year": 2014,
+    "rating": 4.3,
+    "description": "A mystery story titled 'The Silent Forest', written by Marcus Sinclair, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-84.jpg"
+  },
+  {
+    "id": 85,
+    "title": "The Amber Crown",
+    "author": "Maya Brooks",
+    "genre": "Thriller",
+    "year": 2010,
+    "rating": 3.7,
+    "description": "A thriller story titled 'The Amber Crown', written by Maya Brooks, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-85.jpg"
+  },
+  {
+    "id": 86,
+    "title": "The Hidden Garden",
+    "author": "Marcus Monroe",
+    "genre": "Young Adult",
+    "year": 2020,
+    "rating": 4.0,
+    "description": "A young adult story titled 'The Hidden Garden', written by Marcus Monroe, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-86.jpg"
+  },
+  {
+    "id": 87,
+    "title": "Threads of Fate",
+    "author": "Owen Bennett",
+    "genre": "Drama",
+    "year": 2011,
+    "rating": 3.7,
+    "description": "A drama story titled 'Threads of Fate', written by Owen Bennett, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-87.jpg"
+  },
+  {
+    "id": 88,
+    "title": "Rise of the Wanderer",
+    "author": "Nora Frost",
+    "genre": "Adventure",
+    "year": 2023,
+    "rating": 3.6,
+    "description": "A adventure story titled 'Rise of the Wanderer', written by Nora Frost, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-88.jpg"
+  },
+  {
+    "id": 89,
+    "title": "Tales of Aramore",
+    "author": "Marcus Blake",
+    "genre": "Fantasy",
+    "year": 2022,
+    "rating": 4.5,
+    "description": "A fantasy story titled 'Tales of Aramore', written by Marcus Blake, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-89.jpg"
+  },
+  {
+    "id": 90,
+    "title": "Crown of Ember",
+    "author": "Maya Cole",
+    "genre": "Science Fiction",
+    "year": 2014,
+    "rating": 4.0,
+    "description": "A science fiction story titled 'Crown of Ember', written by Maya Cole, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-90.jpg"
+  },
+  {
+    "id": 91,
+    "title": "The Golden Key",
+    "author": "Sophie Hale",
+    "genre": "Thriller",
+    "year": 2023,
+    "rating": 4.9,
+    "description": "A thriller story titled 'The Golden Key', written by Sophie Hale, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-91.jpg"
+  },
+  {
+    "id": 92,
+    "title": "Shadows of the Empire",
+    "author": "Liam Sinclair",
+    "genre": "Young Adult",
+    "year": 2014,
+    "rating": 5.0,
+    "description": "A young adult story titled 'Shadows of the Empire', written by Liam Sinclair, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-92.jpg"
+  },
+  {
+    "id": 93,
+    "title": "The Silver Serpent",
+    "author": "Elena Stone",
+    "genre": "Romance",
+    "year": 2021,
+    "rating": 4.6,
+    "description": "A romance story titled 'The Silver Serpent', written by Elena Stone, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-93.jpg"
+  },
+  {
+    "id": 94,
+    "title": "The Crystal Labyrinth",
+    "author": "Noah Miles",
+    "genre": "Thriller",
+    "year": 2018,
+    "rating": 4.7,
+    "description": "A thriller story titled 'The Crystal Labyrinth', written by Noah Miles, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-94.jpg"
+  },
+  {
+    "id": 95,
+    "title": "The Forgotten Kingdom",
+    "author": "Grace Summers",
+    "genre": "Adventure",
+    "year": 2011,
+    "rating": 3.6,
+    "description": "A adventure story titled 'The Forgotten Kingdom', written by Grace Summers, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-95.jpg"
+  },
+  {
+    "id": 96,
+    "title": "Fields of Gold",
+    "author": "Liam Sinclair",
+    "genre": "Romance",
+    "year": 2020,
+    "rating": 4.7,
+    "description": "A romance story titled 'Fields of Gold', written by Liam Sinclair, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-96.jpg"
+  },
+  {
+    "id": 97,
+    "title": "Crown of Ember",
+    "author": "Ivy Reed",
+    "genre": "Adventure",
+    "year": 2014,
+    "rating": 4.2,
+    "description": "A adventure story titled 'Crown of Ember', written by Ivy Reed, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-97.jpg"
+  },
+  {
+    "id": 98,
+    "title": "The Iron Throne",
+    "author": "Ethan Frost",
+    "genre": "Fantasy",
+    "year": 2023,
+    "rating": 4.5,
+    "description": "A fantasy story titled 'The Iron Throne', written by Ethan Frost, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-98.jpg"
+  },
+  {
+    "id": 99,
+    "title": "The Burning Shore",
+    "author": "Owen Morrison",
+    "genre": "Thriller",
+    "year": 2013,
+    "rating": 4.1,
+    "description": "A thriller story titled 'The Burning Shore', written by Owen Morrison, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-99.jpg"
+  },
+  {
+    "id": 100,
+    "title": "The Winter Veil",
+    "author": "Elena Miles",
+    "genre": "Young Adult",
+    "year": 2013,
+    "rating": 3.7,
+    "description": "A young adult story titled 'The Winter Veil', written by Elena Miles, exploring themes of courage, loss, and destiny.",
+    "coverImage": "https://example.com/covers/book-100.jpg"
+  }
+] 
+}

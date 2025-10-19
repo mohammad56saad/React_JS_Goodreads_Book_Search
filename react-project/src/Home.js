@@ -1,8 +1,13 @@
 const Home = () => {
+    fetch('http://localhost:7000/books')
+        .then(response => response.json())
+        .then(data => console.log(data));
+
+
     return (
         <div className="home">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAysFZcWYTHiuLdEaV2oNKcs5XU8PqUGbznQ&s" alt="Logo-image" />
-            <div className = "search-bar">
+            <div className="search-bar">
                 <div className="search-input">
                     <input type="text" placeholder="GoodReads Search" />
                     <i class="bi bi-caret-down-fill">
