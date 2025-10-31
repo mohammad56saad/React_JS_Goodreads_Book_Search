@@ -7,6 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
+  background-color: #fafafa;
 }
 
 .nav-bar{
@@ -110,6 +111,7 @@ form button{
 .search-input input{
   width: 100%;
   border: none;
+  background-color: #fafafa;
 }
 
 .search-input input:focus{
@@ -129,6 +131,65 @@ form button{
   border: none;
   border-radius: 5px;
   height: 30px;
+}
+
+.book-searched{
+  height: 50vh;
+  overflow: scroll;
+  width: 770px;
+  margin: 0 auto;
+  text-align: left;
+  background-color: white;
+  padding-left: 10px;
+  overflow-x: hidden;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.book-searched a{
+  display: block;
+  text-decoration: none;
+  padding: 5px 0;
+  color: black;
+}
+
+.book-searched a:hover{
+  color: #3f51b5;
+  font-weight: bold;
+}
+
+.details{
+  background-color: white;
+  width: 250px;
+  height: 400px;
+  margin: 10px auto;
+  box-shadow: 0 0 5px 1px rgba(128, 128, 128, 0.3);
+  text-align: center;
+}
+
+#details-title{
+  padding-top: 20px;
+}
+
+.details hr{
+  width: 90%;
+  color: rgba(128, 128, 128, 0.1);
+  opacity: 0.4;
+}
+
+#details-poster{
+  max-width: 150px;
+}
+
+.avg-rating p, .rate-it p:last-child{
+  margin-top: -5px;
+}
+
+.avg-rating p:first-child, .rate-it p:first-child{
+  margin-bottom: 2px;
+}
+
+.avg-rating i, .rate-it i{
+  margin: 0 2px;
 }
 
  

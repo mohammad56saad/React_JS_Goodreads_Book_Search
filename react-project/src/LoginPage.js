@@ -1,11 +1,13 @@
 import { useState } from "react"
-import { Link, useHistory } from "react-router-dom/cjs/react-router-dom.min"
+import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
+
 
 const LoginPage = () => {
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const [success, setSuccess] = useState(false)
-  const history = useHistory()
+  const navigate = useNavigate()
 
   let storedAccounts
 
@@ -27,7 +29,7 @@ const LoginPage = () => {
         if(accountFound.password === password){
           setSuccess(true)
           setTimeout(() => {
-            history.push('/home')
+            navigate('/home')
           }, 1000)
         } else{
           alert("Password is Incorrect!")

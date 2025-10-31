@@ -1,13 +1,14 @@
 import { useState } from 'react'
-import { useHistory } from 'react-router-dom/cjs/react-router-dom.min'
-import { Link } from 'react-router-dom/cjs/react-router-dom.min'
+import { useNavigate } from 'react-router-dom'
+import { Link } from "react-router-dom";
+
 
 const SignUp = () => {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [cPassword, setCPassword] = useState('')
   const [success, setSuccess] = useState(false)
-  const history = useHistory();
+  const navigate = useNavigate();
   let storedAccounts;
 
 
@@ -40,7 +41,7 @@ const SignUp = () => {
           setSuccess(true)
 
           setTimeout(() => {
-            history.push('/')
+            navigate('/')
           }, 1000)
         });
       } else {
